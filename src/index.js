@@ -33,7 +33,7 @@ root.render(
         />
         {/* <Route path="/Hasil" element={<Hasil />} /> */}
         <Route
-          path="/register"
+          path="/register"  
           element={
             <GoogleOAuthProvider clientId={REACT_APP_CLIENT_ID}>
               <Register />
